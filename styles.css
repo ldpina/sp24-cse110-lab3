@@ -1,23 +1,33 @@
 /* This is to univerally affect our stylying */
+.jacquard-12-charted-regular {
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+:root{
+    --beige-color:beige;
+}
+
 *{
-    background-color: beige;
+    background-color: var(--beige-color);
 }
 .title{
     color: hsl(62,37%,58%);
-    background-color: color-mix(in srgb, white 25%, black) ;  
+    background-color: color-mix(in srgb, #FFFFFF 25%, black) ;  
     width: 14em;
     text-align: center;
+    font-family: "Jacquard 12 Charted"; 
+    font-weight: 40;   
 
 }
 
-.agenda{
-    fallback: upper-alpha;
-}
 
 #backAttendance{
     margin-top: 50px;
     background-color: rgb(159,140,118);
-    width: 11vw;     
+    width:35vw; 
 }
 
 
@@ -27,10 +37,10 @@
 }
 
 #contentM{
-    background-color: rgb(231, 255, 15);
+    background-color: color(srgb-linear 0 1 0);
     width: 5.5cm;
     border-style: dotted;
-    border-color: #17d0f5   color(srgb-linear 0 1 0);
+    border-color: #17d0f5;
     border-width: 4px;
     border-radius: 25%;
 }
@@ -46,8 +56,14 @@
     width: 1.5in;
 }
 .names{
-    margin: 0px 0px 50px;
+    margin: 0px 0px 20px;
     text-decoration: underline;
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    
 }
 #picture{
     margin:auto;
@@ -56,7 +72,7 @@
 #diagram{
     display:inline;
     height: 500px;
-    width: 50%;
+    width: 100%;
 }
 
 #video{
@@ -84,3 +100,17 @@ button:hover{
 button:active{
     background-color: orange;
 }
+
+@media (min-width: 5in) {
+    div {
+      background: beige;
+    }
+  }
+
+  .agenda{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows: auto; 
+    column-gap: 5%;
+    row-gap: 15px;
+  }
