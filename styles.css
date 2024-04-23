@@ -1,3 +1,17 @@
+/* This is to univerally affect our stylying */
 *{
-    background-color: red;
+    background-color: beige;
+}
+.title{
+    color: hsl(62,37%,58%);
+    background-color: color-mix(in srgb, white 25%, black) ;  
+}
+.topic{
+    color: color(srgb-linear 0 1 0);
+}
+.date{
+    color: #00B4D8;
+}
+header{
+    background-color: rgb(159,140,118);
 }
