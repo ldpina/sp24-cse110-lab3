@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3 
 
-Pages site: https://ldpina.github.io/Lab2_Starter/
+Pages site: https://ldpina.github.io/sp24-cse110-lab3
