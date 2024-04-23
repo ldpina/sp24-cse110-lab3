@@ -17,17 +17,17 @@
     </header>
 
     <section>
-        <h2>ATTENDANCE</h2>
+        <h2 id = "backAttendance">ATTENDANCE</h2>
         <hr>
-        <div>
+        <div class = "names">
             <p>Luis Pina, Luis Hernandez, Luis Perez, Luis Garcia, Luis Sanchez, Luis Gonzalez</p>
         </div>
     </section>
 
     <section>
-        <h2>Agenda</h2>
+        <h2 id = "backAgenda">Agenda</h2>
         <hr>
-        <ul>
+        <ul class = "agenda">
             <li>Go over Brain storming Diagrams</li>
             <li>Take attendance
                 <ul>
@@ -45,28 +45,29 @@
     </section>
 
     <section>
-        <h2>Content of meeting</h2>
+        <h2 id = "contentM">Content of meeting</h2>
         <hr>
-        <h2>New Business</h2>
+        <h2  id = "important">New Business</h2>
         <p> Since this is our first meeting of the quarter, we still need to go over what coding lanuage we will need to use for the project as well as know exactly what kind of project we wanna do</p>
 
-        <h3>This diagram was presented during the meeting</h3>
-        <img src="https://images.edrawmax.com/examples/brainstorming-examples/3.jpg" alt="Diagram of Brain Storm">
+        <h3 id = "picture">This diagram was presented during the meeting</h3>
+        <img src="https://images.edrawmax.com/examples/brainstorming-examples/3.jpg" alt="Diagram of Brain Storm" id = "diagram">
         <div>
             <strong>PLEASE WATCH THE COMMENTARY OF THE DIAGRAM</strong>
         </div>
-        <div>
-            <video width="320" height="240" controls>
+        <div id = "comm">
+            <video width="320" height="240" controls id ="video">
                 <source src="chimpZoom.mp4" type="video/mp4">  
             </video>
+        <!-- </div>
+        <div> -->
+            <em id = "textAUDIO">Here are some concerns that were brought up during the meeting</em>
+        <!-- </div> -->
+            <audio controls id = "audio">
+                <source src="AudioChimps.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
         </div>
-        <div>
-            <em>Here are some concerns that were brought up during the meeting</em>
-        </div>
-        <audio controls>
-            <source src="AudioChimps.mp3" type="audio/mpeg">
-            Your browser does not support the audio tag.
-        </audio>
         <details>
             <summary><b>If you cannot listen to the audio here is the translation:</b></summary>
                 <br>
@@ -77,7 +78,7 @@
                 <i>Luis Gonzalez: Wait, can't we just ask a TA for help?</i>
                 <p>Luis Hernandez: We will ask them Friday at 6pm for help!</p>
         </details>
-        <h3>Types of Forms</h3>
+        <h3 id = "typesForms">Types of Forms</h3>
         <br>
         <p>There are 8 types of forms:<br><em>form, fieldset, input, textarea, datalist, select, option, and button!</em></p>
         <br>
