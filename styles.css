@@ -1,0 +1,86 @@
+/* This is to univerally affect our stylying */
+*{
+    background-color: beige;
+}
+.title{
+    color: hsl(62,37%,58%);
+    background-color: color-mix(in srgb, white 25%, black) ;  
+    width: 14em;
+    text-align: center;
+
+}
+
+.agenda{
+    fallback: upper-alpha;
+}
+
+#backAttendance{
+    margin-top: 50px;
+    background-color: rgb(159,140,118);
+    width: 11vw;     
+}
+
+
+#backAgenda{
+    background-color: rgb(159,140,118);
+    width: 80px;  
+}
+
+#contentM{
+    background-color: rgb(231, 255, 15);
+    width: 5.5cm;
+    border-style: dotted;
+    border-color: #17d0f5   color(srgb-linear 0 1 0);
+    border-width: 4px;
+    border-radius: 25%;
+}
+
+#important{
+    background-color:rgb(159,140,118);
+    width: 6rem;
+    padding: 0px 10px 0px;
+}
+
+#typesForms{
+    background-color:#17d0f5;
+    width: 1.5in;
+}
+.names{
+    margin: 0px 0px 50px;
+    text-decoration: underline;
+}
+#picture{
+    margin:auto;
+    padding-bottom: 5%;
+}
+#diagram{
+    display:inline;
+    height: 500px;
+    width: 50%;
+}
+
+#video{
+    max-width: 50%;
+    min-width: 30%
+}
+#textAUDIO{
+    display:none;
+}
+
+#comm{
+    position: relative;
+}
+
+#audio{
+    position: static;
+    bottom: 40%;
+    left: 20%;
+    max-width: 50%;
+}
+
+button:hover{
+    background-color:blue;
+}
+button:active{
+    background-color: orange;
+}
