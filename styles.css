@@ -160,7 +160,7 @@ div:has(p){
 
 form{
     border-style: dotted;
-    &{
-        color: orange;
+    & {
+       color: orange;
     }
 }
